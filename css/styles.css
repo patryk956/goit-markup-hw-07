@@ -513,6 +513,10 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.footer__address-link:hover,
+.footer__address-link:focus {
+  color: var(--color-blue);
+}
 .footer__join-main {
   width: 206px;
   height: 80px;

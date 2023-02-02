@@ -38,7 +38,9 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
   }
-
+  &__address-link:is(:focus, :hover) {
+    color: var(--color-blue);
+  }
   &__join-main {
     width: 206px;
     height: 80px;
