@@ -38,15 +38,15 @@
     outline: none;
   }
 
-  &__nav-link:is(:hover, :focus) {
+  &__nav-link-active:is(:hover, :focus) {
     color: var(--color-blue);
   }
 
-  &__nav-active-link {
+  &__nav-active {
     color: var(--color-blue);
   }
 
-  &__nav-active-link::after {
+  &__nav-active::after {
     content: "";
     background-color: var(--color-blue);
     width: 100%;
@@ -64,7 +64,7 @@
   }
 
   &__contacts-link {
-    color: var(--color-silver);
+    color: var(--color-gray);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -85,7 +85,7 @@
 
   &__contacts-link-icon {
     margin-right: 10px;
-    fill: var(--color-silver);
+    fill: var(--color-gray);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
