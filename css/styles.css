@@ -617,8 +617,8 @@ ul {
   gap: 30px;
   justify-content: center;
 }
-.project__item:hover > .project__overlay,
-.project__item:focus > .project__overlay {
+.project__item:hover .project__overlay,
+.project__item:focus .project__overlay {
   transform: translateY(0);
   outline: none;
 }
@@ -632,11 +632,6 @@ ul {
 .project__box {
   position: relative;
   overflow: hidden;
-}
-.project__box:hover > .project__overlay,
-.project__box:focus > .project__overlay {
-  transform: translateY(0);
-  outline: none;
 }
 .project__overlay {
   position: absolute;
