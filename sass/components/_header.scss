@@ -42,11 +42,11 @@
     color: var(--color-blue);
   }
 
-  &__nav-active {
+  &__nav-link-active {
     color: var(--color-blue);
   }
 
-  &__nav-active::after {
+  &__nav-link-active::after {
     content: "";
     background-color: var(--color-blue);
     width: 100%;
