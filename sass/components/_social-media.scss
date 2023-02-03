@@ -19,12 +19,12 @@
 
   &__icon:is(:hover, :focus) {
     background-color: var(--color-blue);
-    fill: var(--brand-color-white);
+    fill: var(--color-white);
     outline: none;
   }
 
   &__svg--team {
-    fill: var(--color-silver);
+    fill: var(--color-gray);
   }
 
   &__icon:is(:hover, :focus) .social-media__svg {

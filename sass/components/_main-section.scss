@@ -4,7 +4,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/background-image.jpg);
+    url(../images/main-imag.jpg);
   background-position: center;
   background-repeat: no-repeat;
   align-items: center;
@@ -31,7 +31,7 @@
 
   &__button {
     background-color: var(--color-blue);
-    color: var(--brand-color-white);
+    color: var(--color-white);
     font-style: normal;
     font-weight: 500;
     line-height: 1.62;
@@ -44,12 +44,5 @@
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  &__button:is(:hover, :focus, :active) {
-    outline: none;
-    background-color: var(--color-white);
-
-    color: var(--color-blue);
   }
 }
