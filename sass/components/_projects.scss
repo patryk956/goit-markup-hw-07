@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   gap: 30px;
 
-  &__item:is(:focus, :hover) &__overlay {
+  &__item:is(:focus, :hover), &__overlay {
     transform: translateY(0);
     outline: none;
   }
